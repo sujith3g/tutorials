@@ -1,0 +1,13 @@
+<template name="tutorials">
+  {{#if tutorials.count}}
+    {{#each tutorials}}
+      <div class="tutorialLine">
+        Tutorial label
+      </div>
+    {{/each}}
+  {{else}}
+    <div id="noTutorialsWarning">
+      There are no tutorials found..
+    </div>
+  {{/if}}
+</template>
