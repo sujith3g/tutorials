@@ -1,4 +1,4 @@
 Tutorials
 ------------
 
-This is my TDD attempt on [Meteor](http://meteor.com) using [sanjo:jasmine](https://atmospherejs.com/sanjo/jasmine).
+This is my TDD attempt in [Meteor](http://meteor.com) using [sanjo:jasmine](https://atmospherejs.com/sanjo/jasmine).
