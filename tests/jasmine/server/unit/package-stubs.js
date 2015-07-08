@@ -7085,7 +7085,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "6c9e4d59e9dc132e2ffbbdb9f66964685207af88"
+                  "value": "c651ae087ff4e20d7d09641f96bb34780390b796"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7209,7 +7209,7 @@ var packageMetadata = {
             },
             "connections": {
               "type": "constant",
-              "value": 3
+              "value": 0
             },
             "timeout": {
               "type": "constant",
@@ -7852,7 +7852,7 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "1cbfeb27c845b156b2b12083fe258d6d4b880275"
+          "value": "4bdc6e47c6c4c7c870c4e689ddacb91434729edd"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
@@ -12290,11 +12290,11 @@ var packageMetadata = {
             },
             "pluralNotFound": {
               "type": "constant",
-              "value": "plural_not_found0.7869254080578685"
+              "value": "plural_not_found0.48092219652608037"
             },
             "contextNotFound": {
               "type": "constant",
-              "value": "context_not_found0.16300331568345428"
+              "value": "context_not_found0.608325073029846"
             },
             "cookieExpirationTime": {
               "type": "undefined"

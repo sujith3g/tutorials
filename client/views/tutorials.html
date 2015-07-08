@@ -1,13 +1,22 @@
 <template name="tutorials">
-  {{#if tutorials.count}}
-    {{#each tutorials}}
-      <div class="tutorialLine">
-        Tutorial label
-      </div>
-    {{/each}}
-  {{else}}
-    <div id="noTutorialsWarning">
-      There are no tutorials found..
-    </div>
+  {{#if tutorials.count}} {{#each tutorials}}
+  <div class="row tutorialLine">
+    {{name}}
+    <span class="badge">{{currentCapacity}} / {{capacity}}</span>
+    {{#if isInRole 'admin'}}
+    <span class="glyphicon glyphicon-trash removeTutorial"></span> Delete
+    <a class="btn btn-info pull-right modifyTutorial" href="{{pathFor 'admin'}}">
+      <span class="glyphicon glyphicon-edit"></span> Edit</a>
+    {{/if}}
+  </div>
+  {{/each}} {{else}}
+  <div id="noTutorialsWarning">
+    There are no tutorials found..
+  </div>
   {{/if}}
+  {{#if isInRole 'admin'}}
+
+<hr />
+        <a href="{{pathFor 'admin'}}" class="btn btn-primary" id="createTutorial">Create Tutorial</a>
+    {{/if}}
 </template>
